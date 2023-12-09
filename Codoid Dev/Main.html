@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Main.css">
+    </head>
+    <body>
+        <script>
+            function validate(){
+                var s1=document.submitform.username.value;
+                var s2=document.submitform.email.value;
+                var s3=document.submitform.number.value;
+                var s4=document.submitform.textarea1.value;
+                if(s1!=="" & s2!==""& s3!==""){
+                    document.getElementById("form1").submit();
+                }
+                else{
+                   if(s1==""){
+                      document.getElementById("p1").innerHTML="Enter Your Name";
+                    }
+                   else{
+                      document.getElementById("p1").innerHTML="";
+                    }
+                   if(s2==""){
+                      document.getElementById("p2").innerHTML="Enter Your Email ID";
+                    }
+                   else{
+                      document.getElementById("p2").innerHTML="";
+                    }
+                   if(s3==""){
+                      document.getElementById("p3").innerHTML="Enter Your Phone Number";
+                    }
+                   else{
+                      document.getElementById("p3").innerHTML="";
+                    }
+                    if(s4==""){
+                      document.getElementById("p4").innerHTML="Enter Some Message";
+                    }
+                   else{
+                      document.getElementById("p4").innerHTML="";
+                    }
+                }
+            }
+        </script>
+
+        <div class="navbar">
+            <div class="left-side">
+                <img src="Codoid-Logo.svg" class="logo" />
+            </div>
+            <div class="right-side">
+                <a class="link1" href="https://codoid.com/"><span>Home</span></a>
+                <a class="link1" href="https://codoid.com/about-us/"><span>About us</span></a>
+                <a class="link1" href="https://codoid.com/services/"><span>Services</span></a>
+                <a class="link1" href="https://codoid.com/innovations/"><span>our products</span></a>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="left-side">
+                <p>
+                    It's always best to test.
+                </p>
+                <h3>A QA Company with Grade-A Software Testing Solutions.</h3>
+                <button class="button"><a class="link2" href="https://codoid.com/qa-outsourcing-company/">Read more</a></button>
+            </div>
+        </div>
+            <div class="top"><span class="span1">Quality</span> First </div>
+            <div class="parent">
+                <div class="left">
+                    <p id="apple">A GROWING PRODUCT </p>
+                     <p id="orange">NEEDS A PASSIONATE 
+                     TEAM TO ENSURE QUALITY</p> 
+                    <br>
+                    <p class="banana">
+                       Beginning as a startup in 2012, Codoid has rapidly established itself as one of the TOP QA COMPANIES in the world. 
+                       Codoid is proudly led by QA experts that are passionate about software testing, and Quality Assurance. 
+                       The greater the challenge, the more driven our team becomes. We don’t stop until we’ve achieved our goal of 
+                       delivering quality software.
+                    </p>
+                    <p class="banana">
+                       Our motivation comes from a deep need to learn, explore, and grow—as a team. As we delve into the quality 
+                       assessment of your product, we leave absolutely no stone unturned in ensuring your product meets the needs of the 
+                       end user. Our team is focused on meeting the highest standards, to help you deploy your incredible work.   
+                    </p>
+                    <p class="banana">
+                        Based in the tech hubs of India and Singapore, our clients are global. We work with organizations from fast-growing
+                         Based in the tech hubs of India and Singapore, our clients are global. We work with organizations from fast-growing
+                       startups, to Fortune 500 companies. All of our clients trust Codoid to deliver incredible QA testing, everytime.
+                    </p>
+                </div>
+                <div class="right">
+                </div>
+            </div>
+            <div class="top">
+                <span class="span1">Case</span> Studies 
+            </div>
+            <div class="sam">
+              <div class="square">
+                  <div id="car" class="boxes"><a class="link3" href="https://codoid.com/client-stories/elearning-testing-for-online-courses/">
+                     <p class="types">POLARIS</p>
+                     <p class="same">eLearning Testing for Online Courses</p>
+                     <p class="under">Manufacturing</p></a>
+                  </div> 
+               </div>
+               <div class="square">
+                  <div id="tab" class="boxes" ><a class="link3" href="https://codoid.com/client-stories/regression-testing-for-a-paperless-mission/">
+                     <p class="types">Steinweg</p>
+                     <p class="same1">Regression Testing for a Paperless Mission</p>
+                     <p class="under">Logistics</p></a>
+                  </div>
+                </div>
+               <div class="square" >
+                  <div id="phone" class="boxes"><a class="link3" href="https://codoid.com/client-stories/mobile-app-testing-case-study/">
+                      <p class="types">ooredoo</p>
+                      <p class="same">Mobile App Automation for a Telecom Giant</p>
+                      <p class="under">Telecom</p></a>
+                   </div>
+               </div>
+               <div class="square">
+                  <div id="girl" class="boxes"><a class="link3" href="https://codoid.com/client-stories/helping-deliver-a-complete-online-learning-experience/">
+                      <p class="types">CENGAGE</p>
+                      <p class="same">Helping Deliver Seamless Online Learning</p>
+                      <p class="under">E-learning</p></a>
+                  </div>
+               </div>
+          </div>
+          <div id="sam1">
+             <div class="square">
+                   <div id="girlphone" class="boxes"><a class="link3" href="https://codoid.com/client-stories/test-automation-telecom-domain/">
+                      <p class="types">mobily</p>
+                      <p class="same">Setting up an Automation Coe & Framework</p>
+                      <p class="under">Telecom</p></a>
+                   </div> 
+               </div>
+               <div class="square">
+                <div id="graph" class="boxes"><a class="link3" href="https://codoid.com/client-stories/etl-data-warehouse-testing-case-study/">
+                   <p class="types">CENGAGE</p>
+                   <p class="same1">Automated ETL Testing for Data Cleaning</p>
+                   <p class="under">E-Learning</p></a>
+                </div>
+              </div>
+             <div class="square">
+                <div id="handbook" class="boxes"><a class="link3" href="https://codoid.com/client-stories/hotel-plan-automation-testing-case-study/">
+                    <p class="types">Hotelplan</p>
+                    <p class="same">Automation Testing for a Hote Booking App</p>
+                    <p class="under">Hospitality</p></a>
+                 </div>
+             </div>
+             <div class="square">
+                <div id="calendarlap" class="boxes"><a class="link3" href="https://codoid.com/client-stories/automated-regression-testing-on-a-daily-basis/">
+                    <p class="types">SMARTWAY</p>
+                    <p class="same">Automated Regression Testing on a Daily Basis</p>
+                    <p class="under">Technology</p></a>
+                </div>
+             </div>
+          </div>
+          <div class="mylr">
+            <div class="myleft">
+                <p class="top"><span class="span1">Talk to</span> our Experts</p><br>
+                <form method="post" name="submitform" class="myform1" id="form1">
+                    <input type="text" name="username" id="username" placeholder="Full Name" class="Form">
+                    <p id="p1"></p><br>
+                    <input type="email" name="email"   id="email"    placeholder="Email" class="Form">
+                    <p id="p2"></p><br>
+                    <input type="number" name="number" id="number"   placeholder="Phone Number" class="Form">
+                    <p id="p3"></p><br>
+                    <textarea placeholder="Message" name="textarea1"></textarea>
+                    <p id="p4"></p><br>
+                    <input type="button" value="submit" onclick="validate()" id="submit1">
+                </form>
+            </div>          
+            <div class="myright"></div>
+        </div>
+    </body>
+</html>
